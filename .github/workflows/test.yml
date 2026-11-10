@@ -17,7 +17,7 @@ jobs:
               run: cd demo_react/
 
             - name: Install dependencies
-              run: npm ci
+              run: npm install
 
             - name: Run tests
               run: npm test
